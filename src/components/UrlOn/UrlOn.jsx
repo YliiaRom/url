@@ -1,5 +1,5 @@
-import css from "./Url.module.css";
-export default function Url() {
+import css from "./UrlOn.module.css";
+export default function UrlOn() {
   return (
     <div className={css.bordSection}>
       <h2>Структура URL-рядка</h2>

@@ -68,7 +68,7 @@ export default function Products() {
         </span>
       </p>
       <b>2</b>
-      <div className={css.bord}>
+      <div>
         <p>
           <span> import &#123; Link &#125;</span> from "react-router-dom";{" "}
           <br />
@@ -83,12 +83,12 @@ export default function Products() {
         &lt;div&gt; <br />
         &#123;products.map((product) =&gt; ( <br />
         &lt;div key=&#123;product.id&#125; &gt; <br />
-        <span className={css.bord}>&lt;Link to=&#123;`$&#123;</span>
+        <span>&lt;Link to=&#123;`$&#123;</span>
         product.id&#125;`&#125;&gt;
         <br />
         &lt;img src="https://via.placeholder.com/200x100" alt="" /&gt; <br />
         &lt;h3&gt; &gt;&#123;product.name&#125;&lt;/h3&gt; <br />
-        <span className={css.bord}>&lt;/Link&gt;</span> <br />
+        <span>&lt;/Link&gt;</span> <br />
         &lt;/div&gt;
         <br />
         ))&#125; <br />

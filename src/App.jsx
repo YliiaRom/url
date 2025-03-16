@@ -1,7 +1,7 @@
 import { Routes, Route, NavLink } from "react-router-dom";
 import { useState } from "react";
 import "./App.css";
-import Url from "./components/Url/Url";
+
 import UrlParam from "./components/UrlParam/UrlParam";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
@@ -17,6 +17,8 @@ import Team from "./components/Team/Team";
 import Reviews from "./components/Reviews/Reviews";
 import VercelOn from "./components/VercelOn/VercelOn";
 
+import UrlOn from "./components/UrlOn/UrlOn";
+
 const buildLinksClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);
 };
@@ -25,7 +27,7 @@ function App() {
     <>
       <VercelOn />
       <UrlIn />
-      <Url />
+      <UrlOn />
       <div>
         <nav className={css.nav}>
           <NavLink to="/" className={buildLinksClass}>
