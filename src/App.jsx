@@ -1,10 +1,10 @@
 import { Routes, Route, NavLink } from "react-router-dom";
 import { useState } from "react";
 import "./App.css";
-import Url from "./components/url/url";
+import Url from "./components/Url/Url";
 import UrlParam from "./components/UrlParam/UrlParam";
 import Home from "./pages/Home";
-import Products from "./pages/products";
+import Products from "./pages/Products";
 import NotFound from "./pages/NotFound";
 import About from "./pages/About";
 
