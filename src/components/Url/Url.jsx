@@ -1,4 +1,4 @@
-import css from "./url.module.css";
+import css from "./Url.module.css";
 export default function Url() {
   return (
     <div className={css.bordSection}>
