@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import About from "./About";
-import Products from "./products";
+import ProductFirst from "../components/ProductFirst";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
           <About />
         </Link>
         <Link to="/products">
-          <Products />
+          <ProductFirst />
         </Link>
       </nav>
     </>

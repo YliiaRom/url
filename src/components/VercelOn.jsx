@@ -22,6 +22,11 @@ export default function VercelOn() {
           Git-коміт та надіслати зміни в репозиторій на GitHub, щоб на Vercel
           запустився процес збірки проекту з вже доданим файлом налаштувань.
         </p>
+        <p>
+          Саме для цього ми і додали файл vercel.json, щоб сказати Vercel, що у
+          нас є SPA (Single Page Application) з маршрутизацією, і на будь-який
+          URL слід повертати index.html.
+        </p>
       </div>
     </div>
   );

@@ -5,7 +5,6 @@ export default function NotFound() {
         Сторінка помилки навігації <br /> path="*"
       </h2>
       <p>
-        {" "}
         <mark>
           якщо користувач перейде за посиланням якого немає в нашому додатку
         </mark>
@@ -16,8 +15,7 @@ export default function NotFound() {
         випадку, якщо жоден інший маршрут не підійде.
       </p>
       <p>
-        <span>import </span>NotFound from "
-        <span className={CSS.bord}>path/to</span>
+        <span>import </span>NotFound from "<span>path/to</span>
         /pages/NotFound"; <br />
         (import NotFound from "./pages/NotFound";) <br />
       </p>

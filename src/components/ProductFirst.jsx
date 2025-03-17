@@ -1,9 +1,9 @@
-import { ProductList } from "../components/ProductList";
+import { ProductList } from "./ProductList";
 import { getProducts } from "../fakeApi";
-import ProductDetails from "./ProductDetails";
-import css from "./Products.module.css";
 
-export default function Products() {
+import css from "./ProductFirst.module.css";
+
+export default function ProductFirst() {
   const product = getProducts();
   return (
     <>
