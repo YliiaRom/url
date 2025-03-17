@@ -21,7 +21,7 @@ export default function UrlParam() {
         визначатимемо яку посаду необхідно відображати саме зараз
       </p>
       <p>
-        &lt;Route path="/blog/:postId" element= &#123; &gt;BlogPost /&lt; &#125;
+        &lt;Route path="/blog/:postId" element= &#123; &lt;BlogPost /&gt; &#125;
         /&gt;
       </p>
       <p>/App.jsx</p>

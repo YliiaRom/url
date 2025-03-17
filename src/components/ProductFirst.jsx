@@ -20,7 +20,8 @@ export default function ProductFirst() {
       <details>
         <summary>fakeApi.js</summary>
         <div>
-          <span className={css.accent}> //fakeApi.js</span>
+          {/* <span className={css.accent}> //fakeApi.js</span> */}
+          <span> //fakeApi.js</span>
           <p>
             &lt;const <span>products </span>= [ <br />
             &#123; id: "h-1", name: "Hoodie 1" &#125, <br />
